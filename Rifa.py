@@ -29,7 +29,7 @@ while True:
             print("No hay suficientes participantes")
         else:
             ganadores = random.sample(participantes_unicos, 3)
-            print("\n🎉 GANADORES 🎉")
+            print("\n GANADORES ")
             for g in ganadores:
                 print(g)
 
